@@ -5,37 +5,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Tailwind-Basics</title>
-    <script>
-        tailwind.config = {
-            theme: {
-                screens: {
-                    'sm': '640px',
-                    'md': '768px',
-                    'lg': '1024px',
-                    'xl': '1280px',
-                    '2xl': '1536px',
-                },
-                extend: {
-                    screens: {
-                        'xs': '320px',
-                    },
-                    colors: {
-                        skylight: "skyblue"
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Homepage</title>
 </head>
 <body>
-    <div class="container bg-red-500 mx-auto">
-        <h1 class="text-3xl xs:text-right lg:text-center text-skylight">
-            Hello world!
-        </h1>
-        <h1 class="text-3xl xs:text-right lg:text-center text-[blue]">
-            Hello world!
-        </h1>
+    
+    <div class="max-w-[1320px] mx-auto p-9">
+        <h1 class="text-5xl text-center">Homepage</h1>
     </div>
+
+    <div class="max-w-[1320px] m-auto md:py-[80] flex flex-col lg:flex-row py-5">
+        <div class="basis-[45%]">
+            <img src="https://www.seekpng.com/png/detail/247-2475454_ecommerce-banner-e-commerce-banner-png.png" class="w-full rounded">
+        </div>
+        <div class="basis-[55%] px-5">
+            <h1 class="text-4xl py-3">E-Commerce Website</h1>
+            <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis minima assumenda nostrum, odit illum explicabo laboriosam placeat fugiat, exercitationem facere officia similique cum laudantium, dolorum tempore doloremque recusandae ullam veniam.</p>
+            <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis minima assumenda nostrum, odit illum explicabo laboriosam placeat fugiat, exercitationem facere officia similique cum laudantium, dolorum tempore doloremque recusandae ullam veniam.</p>
+            <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis minima assumenda nostrum, odit illum explicabo laboriosam placeat fugiat, exercitationem facere officia similique cum laudantium, dolorum tempore doloremque recusandae ullam veniam.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="max-w-[1320px] mx-auto mt-5">
+        <h1 class="text-4xl text-center">Products</h1>
+    </div>
+    
+    <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 sm:grid-cols-2 gap-6 px-[20px] p-9">
+     
+        <!-- 1 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+        
+        
+        <!-- 2 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+     
+        <!-- 3 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+     
+        <!-- 4 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+     
+        <!-- 6 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+     
+        <!-- 7 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+     
+        <!-- 8 -->
+        <div class="text-center shadow-lg rounded bg-[#a27d6b]">
+            <div class="overflow-hidden rounded">
+                <img class="duration-1000 hover:scale-125" src="https://img.freepik.com/premium-psd/amber-glass-essential-oil-bottle-branding-mockup_47987-10794.jpg?w=2000">
+            </div>
+            <div class="p-3">
+                <h3 class="text-2xl">Cosmetic Oil</h3>
+                <p>$10.00</p>
+            </div>
+        </div>
+     
+     
+    </div>
+
+    <div class="max-w-[1320px] mx-auto mt-5">
+        <h1 class="text-4xl text-center">Our Services</h1>
+    </div>
+    
+    <div class="max-w-[1200px] mx-auto py-[50px] grid lg:grid-cols-4 sm:grid-cols-2 gap-6">
+        
+        <!-- 1 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+
+        <!-- 2 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+
+        <!-- 3 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+
+        <!-- 4 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+
+        <!-- 5 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+
+        <!-- 6 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+
+        <!-- 7 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+
+        <!-- 8 -->
+        <div class="shadow-lg p-4 text-center group hover:bg-sky-700 hover:text-white duration-1000 rounded">
+            <i class="fas fa-laptop-code text-3xl text-blue-500 mt-2 group-hover:text-white duration-1000 animate-bounce"></i>
+            <h3 class="text-xl mt-2">Web Design</h3>    
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi quisquam quo aliquid quas ipsum?</p>
+        </div>
+        
+    </div>
+
 </body>
 </html>
